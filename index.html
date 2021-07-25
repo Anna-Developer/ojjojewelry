@@ -55,9 +55,11 @@
                 </ul>
             </nav>
         </header> -->
-
-        <header class="header container">
-            <nav class="navigation">
+        <div class="adaptive" id="adaptive">
+            <!-- <img src="./img/menu-adaptive-icon.png" alt=""> -->
+        </div>
+        <header class="header my-container" id="header">
+            <nav class="navigation header-none">
                 <ul class="menu">
                     <li class="menu__link"><a href="#">Контрагентам</a></li>
                     <li class="menu__link"><a href="#">Дизайнерам</a></li>
@@ -69,7 +71,7 @@
                     <img src="./img/logo.png" alt="">
                 </a>
             </div>
-            <div class="header__forms">
+            <div class="header__forms header-none">
                 <form action="" class="search">
                     <input type="image" src="./img/search-icon.png">
                     <input type="search" placeholder="Поиск" class="header__search">
@@ -84,10 +86,7 @@
                     <img src="./img/like-icon.png" alt="">
                 </section>
             </div>
-            <div class="adaptive">
-                <img src="./img/menu-adaptive-icon.png" alt="">
-            </div>
-            <section class="social-media">
+            <section class="social-media header-none">
                 <a href="#"><img src="./img/carbon_logo-youtube.svg" alt=""></a>
                 <a href="#"><img src="./img/entypo-social_vk.svg" alt=""></a>
                 <a href="#"><img src="./img/bx_bxl-facebook.svg" alt=""></a>
@@ -95,18 +94,19 @@
                 <a href="#"><img src="./img/simple-icons_etsy.svg" alt=""></a>
             </section>
         </header>
-        <div class="main__text container">
+        <div class="main__text my-container">
             <h1 class="main__title">Долго, дорого, богато!</h1>
             <button class="main__button">каталог изделий </button>
         </div>
         <div class="main__bottom">
-            <div class="main__bottom-content container">
+            <div class="main__bottom-content my-container">
                 <a href="#"><img src="./img/first-screen__brands-item.png" alt="" class="main__bottom-content__img"></a>
                 <a href="#"><img src="./img/first-screen__brands-item.png" alt="" class="main__bottom-content__img"></a>
                 <a href="#"><img src="./img/first-screen__brands-item.png" alt="" class="main__bottom-content__img"></a>
                 <a href="#"><img src="./img/first-screen__brands-item.png" alt="" class="main__bottom-content__img"></a>
                 <a href="#"><img src="./img/first-screen__brands-item.png" alt="" class="main__bottom-content__img"></a>
-                <a href="#"><img src="./img/first-screen__brands-item.png" alt=""></a>
+                <a href="#"><img src="./img/first-screen__brands-item.png" alt=""
+                        class="main__bottom-content__img-last"></a>
             </div>
         </div>
     </section>
@@ -114,7 +114,7 @@
 
     <!-- carousel start -->
     <section class="wrap">
-        <div class="container second_screen">
+        <div class="my-container second_screen">
             <h3 class="second__pretitle">К мероприятиям</h3>
             <h2 class="second__title">Настоящая красота здесь!</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -309,7 +309,7 @@
 
     <!-- black-flex start -->
     <section class="black-flex">
-        <div class="black-flex__content container">
+        <div class="black-flex__content my-container">
             <h3 class="black-flex__pretitle">
                 Не знаете, что выбрать?
             </h3>
@@ -333,7 +333,7 @@
 
     <!-- article-gallery-section start -->
     <section class="article-gallery-section">
-        <div class="article container">
+        <!-- <div class="article my-container">
             <h3 class="article__pretitle">
                 Полезные статьи
             </h3>
@@ -373,9 +373,42 @@
                 </div>
             </div>
             <button class="article__button">читать наш блог</button>
+        </div> -->
+        <div class="article my-container">
+            <h3 class="article__pretitle">
+                Полезные статьи
+            </h3>
+            <h2 class="article__title">
+                Лучшие советы по подбору дорогих подарков
+            </h2>
+            <div class="article-grid">
+                <div class="a-case">
+                    <a href="#">
+                        <img src="./img/blog_1.png" alt="">
+                    </a>
+                    <a href="#" class="article__link-1">Как выбрать
+                        часы для своей
+                        будущей жены</a>
+                </div>
+                <div class="a-case">
+                    <a href="#">
+                        <img src="./img/blog_2.png" alt="">
+                    </a>
+                    <a href="#" class="article__link-2">Запонки для мужа:
+                        7 ключевых правил
+                        покупки аксессуара</a>
+                </div>
+                <div class="a-case">
+                    <a href="#">
+                        <img src="./img/blog_3.png" alt="">
+                    </a>
+                    <a href="#" class="article__link-3">Как выбрать
+                        обручальные кольца
+                        молодоженам</a>
+                </div>
+            </div>
         </div>
-
-        <<div class="gallery container">
+        <div class="gallery my-container">
             <h3 class="gallery__pretitle">
                 #ojjo_jewerly
             </h3>
@@ -408,13 +441,13 @@
                     </a>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
     <!-- article-gallery-section end -->
 
     <!-- black-flex start -->
     <section class="black-flex attachment">
-        <div class="container">
+        <div class="my-container">
             <div class="black-flex__text-content">
                 <h3 class="black-flex__pretitle">
                     Полезные советы и персональный предложения
@@ -441,7 +474,7 @@
     <!-- black-flex end -->
 
     <!-- footer start -->
-    <footer class="container">
+    <footer class="my-container">
         <div class="footer-grid">
             <div class="f-case">
                 <h2>полезные ссылки</h2>
@@ -509,7 +542,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="./scripts/main.js"></script>
 </body>
 
