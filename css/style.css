@@ -32,6 +32,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+    padding: 0 15px;
 }
 
 .wrap {
@@ -691,6 +692,7 @@ div.card {
 
 footer {
     background: white;
+    padding: 0 15px;
 }
 
 .footer-grid {
@@ -911,6 +913,8 @@ footer {
         align-items: flex-start;
         grid-gap: 30px;
         padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .bg-black {
         background-color: #333333;
