@@ -512,7 +512,7 @@ div.card {
 
 .a-case>a:last-of-type {
     position: absolute;
-    top: 248px;
+    top: 230px;
     right: 0;
     font-family: Gilroy;
     font-style: normal;
@@ -807,15 +807,15 @@ footer {
     .main__bottom-content__img {
         padding: 0 5px;
     }
-    /* .a-none {
+    .a-none {
         display: none;
-    } */
-    /* .adaptive {
+    }
+    .adaptive {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0px 20px;
-    } */
+    }
 }
 
 @media screen and (max-width: 1130px) {
