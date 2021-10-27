@@ -22,6 +22,10 @@ a {
     color: white;
 }
 
+.d-none {
+    display: none;
+}
+
 .black-flex {
     display: flex;
     flex-direction: column;
@@ -78,8 +82,13 @@ a {
     grid-gap: 40px;
 }
 
-.search {
-    grid-gap: 16px;
+.search img {
+    cursor: pointer;
+}
+
+.search input {
+    height: 40px;
+    font-size: 14px;
 }
 
 .header__account {
